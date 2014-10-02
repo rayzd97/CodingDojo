@@ -20,5 +20,9 @@ RSpec.describe StringCalculator do
 	it "negative numbers should not allowed" do
 		expect(string_calculator.add("//;\n1;-2;3")).to eq("negative numbers not allowed")
 	end
+	
+	it "allow double whitespace one for custom delimiter" do
+		expect(string_calculator.add("//\n\n1\n2\n3")).to eq(6)
+	end
 
 end
