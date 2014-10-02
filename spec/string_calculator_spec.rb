@@ -17,4 +17,8 @@ RSpec.describe StringCalculator do
 		expect(string_calculator.add("//;\n1;2;3")).to eq(6)
 	end
 
+	it "negative numbers should not allowed" do
+		expect(string_calculator.add("//;\n1;-2;3")).to eq("negative numbers not allowed")
+	end
+
 end
