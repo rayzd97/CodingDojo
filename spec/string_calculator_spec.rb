@@ -5,4 +5,8 @@ RSpec.describe StringCalculator do
 		expect(string_calculator.add("")).to eq(0)
 	end
 
+	it "receive an string with number divide by comma sum and return total" do
+		expect(string_calculator.add("1,2,3")).to eq(6)
+	end
+
 end
