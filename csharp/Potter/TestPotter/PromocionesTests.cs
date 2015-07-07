@@ -1,7 +1,7 @@
 ﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
-using PotterPromociones;
+using Microsoft.VisualStudio.TestTools.UnitTesting; 
 using System.Collections;
+using PotterPromociones;
 
 namespace TestPotter
 {

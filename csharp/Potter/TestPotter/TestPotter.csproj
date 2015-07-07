@@ -54,8 +54,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\PotterPromociones\PotterPromociones.csproj">
-      <Project>{4605af06-c887-4998-a429-b307e5b8e650}</Project>
+    <ProjectReference Include="..\PotterPromociones\PotterPromociones.csproj">
+      <Project>{c641da17-afa3-4ac7-a891-9c03bd821305}</Project>
       <Name>PotterPromociones</Name>
     </ProjectReference>
   </ItemGroup>
