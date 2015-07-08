@@ -43,9 +43,8 @@ namespace TestPotter
 
         [TestMethod]
         public void testEdgeCases(){
-            Assert.AreEqual((8*5*0.75)+ (8 * 3 * 0.9), potter.Price(new ArrayList { 0, 0, 1, 1, 2, 2, 3, 4 }));
-            //Assert.AreEqual(3 * (8 * 5 * 0.75) + 2 * (8 * 4 * 0.8), potter.Price(new ArrayList { 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 3, 4, 4, 4, 4 }));  
-            Assert.AreEqual((8 * 5 * 4 * 0.75) + (8 * 3 * 0.9), potter.Price(new ArrayList { 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 3, 4, 4, 4, 4 }));  
+            Assert.AreEqual(2 * (8 * 4 * 0.8), potter.Price(new ArrayList { 0, 0, 1, 1, 2, 2, 3, 4 }));
+            Assert.AreEqual(3 * (8 * 5 * 0.75) + 2 * (8 * 4 * 0.8), potter.Price(new ArrayList { 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 3, 4, 4, 4, 4 }));  
         }
     }
 }
