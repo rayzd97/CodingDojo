@@ -1,0 +1,5 @@
+language: csharp
+solution: Potter.sln
+script:
+  - xbuild /p:Configuration=Release Potter.sln
+  - mono ./packages/xunit.runners.3.10.0/tools/xunit.console.clr4.exe ./Potter/PotterPromociones/bin/Debug/PotterPromociones.exe
